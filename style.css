@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: white
+}
+
+.logo {
+    max-width: 150px;
+    display: block;
+    margin: 0 auto;
+}
+
+.tagline {
+    font-style: italic;
+    margin-top: -5px;
+    color: rgb(93, 22, 236);
+}
+
+main {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h2 {
+    color: rgb(93, 22, 236);
+    border-bottom: 2px solid rgb(93, 22, 236);
+    padding-bottom: 5px;
+}
+
+.services ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.deposit {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.paypal-button {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+
+.paypal-button:hover {
+    background-color: rgb(93, 22, 236);
+}
+
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: black;
+    color: white;
+    margin-top: 40px;
+}
